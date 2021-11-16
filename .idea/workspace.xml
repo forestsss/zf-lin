@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d95b7ce-943a-4f89-8d3e-185ce39b6686" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/DubboApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/config/AliyunConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/config/ClusterConfigurationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/config/HaokeConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/config/MockConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/config/RedisClusterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/AdController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/GraphQLController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/HouseResourcesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/MockController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/PicUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/WeiXinController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/AdDataFetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/GraphQLProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/HouseResourcesDataFetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/HouseResourcesListDataFetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/MapHouseDataFetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/MyDataFetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/interceptor/MyResponseBodyAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/interceptor/MyServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/interceptor/RedisCacheInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/interceptor/RequestReplaceFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/pojo/MongoHouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/service/AdService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/service/HouseResourcesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/service/MongoHouseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/service/PicUploadFileSystemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/service/PicUploadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/service/SearchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/HouseData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/Pagination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/PicUploadResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/SearchResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/TableResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/WebResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/ad/index/IndexAdResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/ad/index/IndexAdResultData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/map/MapHouseDataResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/map/MapHouseXY.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/resources/aliyun.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/resources/haoke.graphqls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/resources/mock-data.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/test/java/cn/itcast/haoke/dubbo/api/TestRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-interface/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-interface/src/main/java/cn/itcast/haoke/dubbo/server/api/ApiAdService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-interface/src/main/java/cn/itcast/haoke/dubbo/server/pojo/Ad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-service/src/main/java/cn/itcast/haoke/dubbo/server/AdDubboProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-service/src/main/java/cn/itcast/haoke/dubbo/server/api/ApiAdServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-service/src/main/java/cn/itcast/haoke/dubbo/server/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-service/src/main/java/cn/itcast/haoke/dubbo/server/mapper/AdMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-service/src/main/java/cn/itcast/haoke/dubbo/server/service/AdService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-service/src/main/java/cn/itcast/haoke/dubbo/server/service/impl/AdServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/itcast-haoke-manage-dubbo-server-ad.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-ad/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-common/itcast-haoke-manage-dubbo-server-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-common/src/main/java/cn/itcast/haoke/dubbo/server/pojo/BasePojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-common/src/main/java/cn/itcast/haoke/dubbo/server/service/BaseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-common/src/main/java/cn/itcast/haoke/dubbo/server/vo/PageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-generator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-generator/src/main/java/cn/itcast/haoke/generator/CodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface/src/main/java/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface/src/main/java/cn/itcast/haoke/dubbo/server/pojo/HouseResources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/DubboProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/mapper/HouseResourcesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/service/HouseResourcesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/service/impl/HouseResourcesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/house_resources/TbHouseResourcesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/house_resources/TbHouseResourcesMapper.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="itcast-haoke-manage" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GraphQL Schema File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="day15" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\sources2\mvnen_new" />
+        <option name="mavenHome" value="D:/source2/apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="D:\source2\apache-maven-3.2.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20zFkbZadBRCl5MYkaNnNy1SWo1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.haoke.dubbo.api.graphql" />
+      <recent name="cn.itcast.haoke.dubbo.server.vo" />
+      <recent name="cn.itcast.haoke.dubbo.server.service" />
+      <recent name="cn.itcast.haoke.dubbo.server.pojo" />
+      <recent name="cn.itcast.haoke.dubbo.server.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\itcast-haoke\itcast-haoke-manage\itcast-haoke-manage-api-server\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DubboProvider">
+    <configuration name="PicUploadService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.haoke.dubbo.api.service.PicUploadService" />
+      <module name="itcast-haoke-manage-api-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.haoke.dubbo.api.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.haoke.dubbo.api.T" />
+      <module name="itcast-haoke-manage-api-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.haoke.dubbo.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="itcast-haoke-manage [package]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="AdDubboProvider (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itcast-haoke-manage-dubbo-server-ad-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zf.lin.dubbo.server.AdDubboProvider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdDubboProvider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="itcast-haoke-manage-dubbo-server-ad-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.haoke.dubbo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.haoke.dubbo.server.AdDubboProvider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zf-lin-manage-api-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zf.lin.dubbo.api.DubboApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="itcast-haoke-manage-api-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.haoke.dubbo.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.haoke.dubbo.api.DubboApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboProvider (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zf-lin-manage-dubbo-server-house-resources-dubbo-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zf.lin.dubbo.server.DubboProvider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboProvider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="itcast-haoke-manage-dubbo-server-house-resources-dubbo-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.haoke.dubbo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.haoke.dubbo.server.DubboProvider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PicUploadService" />
+      <item itemvalue="Application.T" />
+      <item itemvalue="Maven.itcast-haoke-manage [package]" />
+      <item itemvalue="Spring Boot.DubboProvider" />
+      <item itemvalue="Spring Boot.DubboApiApplication" />
+      <item itemvalue="Spring Boot.AdDubboProvider" />
+      <item itemvalue="Spring Boot.AdDubboProvider (1)" />
+      <item itemvalue="Spring Boot.DubboApiApplication (1)" />
+      <item itemvalue="Spring Boot.DubboProvider (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DubboProvider" />
+        <item itemvalue="Spring Boot.DubboApiApplication" />
+        <item itemvalue="Spring Boot.AdDubboProvider" />
+        <item itemvalue="Application.PicUploadService" />
+        <item itemvalue="Application.T" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d95b7ce-943a-4f89-8d3e-185ce39b6686" name="Default Changelist" comment="" />
+      <created>1542292544339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542292544339</updated>
+      <workItem from="1542292545591" duration="7082000" />
+      <workItem from="1542356853154" duration="21417000" />
+      <workItem from="1542717424383" duration="592000" />
+      <workItem from="1542718238655" duration="20863000" />
+      <workItem from="1543284679434" duration="12914000" />
+      <workItem from="1543331031121" duration="9798000" />
+      <workItem from="1543888481745" duration="81000" />
+      <workItem from="1543888581933" duration="823000" />
+      <workItem from="1543889411196" duration="30039000" />
+      <workItem from="1544373764252" duration="1950000" />
+      <workItem from="1544543538388" duration="710000" />
+      <workItem from="1545317772061" duration="12061000" />
+      <workItem from="1545467856502" duration="4076000" />
+      <workItem from="1545474135298" duration="859000" />
+      <workItem from="1545806395901" duration="7239000" />
+      <workItem from="1545902785425" duration="5233000" />
+      <workItem from="1546486698871" duration="2278000" />
+      <workItem from="1546825749330" duration="39890000" />
+      <workItem from="1547044728072" duration="10000" />
+      <workItem from="1547124183795" duration="6860000" />
+      <workItem from="1548663174729" duration="2121000" />
+      <workItem from="1551084787837" duration="9305000" />
+      <workItem from="1551362581441" duration="585000" />
+      <workItem from="1637039655382" duration="3833000" />
+    </task>
+    <task id="LOCAL-00001" summary="day06">
+      <created>1543889050958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543889050959</updated>
+    </task>
+    <task id="LOCAL-00002" summary="day06">
+      <created>1543889262614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543889262614</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1543889581591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543889581591</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <created>1543986191847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543986191847</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1">
+      <created>1544274209365</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544274209365</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <created>1545393235907</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545393235907</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1545806438320</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545806438320</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1">
+      <created>1546487039425</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546487039425</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1">
+      <created>1547029146110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547029146111</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1">
+      <created>1547029740752</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547029740752</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <created>1547040718347</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547040718347</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1">
+      <created>1547137594785</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547137594785</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestRedis_testSave - 2018.12.05 at 00h 51m 28s.xml">
+      <configuration name="TestRedis.testSave" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day06" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="685" y="207" key="FileChooserDialogImpl" timestamp="1637040565004">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="685" y="207" key="FileChooserDialogImpl/0.0.1920.1030@0.0.1920.1030" timestamp="1637040565004" />
+    <state x="336" y="0" key="SettingsEditor" timestamp="1637040512702">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="336" y="0" key="SettingsEditor/0.0.1920.1030@0.0.1920.1030" timestamp="1637040512702" />
+    <state x="468" y="218" width="1210" height="766" key="find.popup" timestamp="1637050159412">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="468" y="218" width="1210" height="766" key="find.popup/0.0.1920.1030@0.0.1920.1030" timestamp="1637050159412" />
+  </component>
+</project>

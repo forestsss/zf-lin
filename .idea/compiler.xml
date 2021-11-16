@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="itcast-haoke-manage-dubbo-server-ad-service" />
+        <module name="itcast-haoke-manage-dubbo-server-common" />
+        <module name="itcast-haoke-manage-dubbo-server-house-resources-dubbo-service" />
+        <module name="zf-lin-manage-dubbo-server-generator" />
+        <module name="itcast-haoke-manage-dubbo-server-ad-interface" />
+        <module name="zf-lin-manage-api-server" />
+        <module name="itcast-haoke-manage-api-server" />
+        <module name="zf-lin-manage-dubbo-server-house-resources-dubbo-service" />
+        <module name="zf-lin-manage-dubbo-server-common" />
+        <module name="zf-lin-manage-dubbo-server-ad-interface" />
+        <module name="itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface" />
+        <module name="itcast-haoke-manage-dubbo-server-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="itcast-haoke-manage-dubbo-server-ad-server" target="1.8" />
+      <module name="itcast-haoke-manage-dubbo-server-interface" target="1.8" />
+      <module name="itcast-haoke-manage-dubbo-server-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itcast-haoke-manage-api-server" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-ad" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-ad-interface" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-ad-server" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-ad-service" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-common" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-generator" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-house-resources" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-house-resources-dubbo-service" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-interface" options="-parameters" />
+      <module name="itcast-haoke-manage-dubbo-server-service" options="-parameters" />
+      <module name="zf-lin-manage-api-server" options="-parameters" />
+      <module name="zf-lin-manage-dubbo-server-ad-interface" options="-parameters" />
+      <module name="zf-lin-manage-dubbo-server-common" options="-parameters" />
+      <module name="zf-lin-manage-dubbo-server-generator" options="-parameters" />
+      <module name="zf-lin-manage-dubbo-server-house-resources-dubbo-service" options="-parameters" />
+    </option>
+  </component>
+</project>
