@@ -38,21 +38,30 @@ MongoDB使用：
 
 RocketMQ的使用：
 
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu11.png)
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu12.png)
 
 使用redis:
 导入redis依赖以及配置，采用集群部署
 
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu13.png)
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu14.png)
+
 
 RedisConfig文件：
 
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu15.png)
 
 RedisTemplate的使用：
 
-
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu16.png)
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu17.png)
 
 用Elasticsearch做房源搜索
 导入包以及配置：
 
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu18.png)
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu19.png)
 
 Elasticsearch的使用：
 
