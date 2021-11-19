@@ -7,7 +7,7 @@ rocketmq,nginx。
 
 项目代码目录：
 
-
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu1.png)
 
 使用zookeeper作为注册中心：
 
