@@ -65,10 +65,13 @@ RedisTemplate的使用：
 
 Elasticsearch的使用：
 
-
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu20.png)
 
 搭建后台myql数据库：
 
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu21.png)
+
 使用docker进行安装MySQL集群：
 
-
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu22.png)
+![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu23.png)
