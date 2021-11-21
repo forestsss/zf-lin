@@ -1,4 +1,4 @@
-#租房后台管理系统介绍
+# 租房后台管理系统介绍
 
 系统主要模块有房源管理，租房管理，用户管理，三大块。
 架构：SpringBoot+Springmvc+Dubbo+Mybatis
@@ -6,73 +6,73 @@
 mysql,redis,mongodb,zookeeper,Elasticsearch,
 rocketmq,nginx。
 
-项目代码目录：
+## 项目代码目录：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu1.png)
 
-使用zookeeper作为注册中心：
+## 使用zookeeper作为注册中心：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu2.png)
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu3.png)
 
-使用mongoDB作为在线聊天的数据库。
+## 使用mongoDB作为在线聊天的数据库。
 导入依赖以及进行配置：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu4.png)
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu5.png)
 
-MongoDB使用：
+## MongoDB使用：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu6.png)
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu7.png)
 
-使用mongodb存储房源信息：
+## 使用mongodb存储房源信息：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu8.png)
 
-当聊天对象不在线时将聊天信息发送到MQ,这里选用rocketMQ作为消息队列。
+## 当聊天对象不在线时将聊天信息发送到MQ,这里选用rocketMQ作为消息队列。
 
 导入依赖以及进行配置：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu9.png)
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu10.png)
 
-RocketMQ的使用：
+## RocketMQ的使用：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu11.png)
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu12.png)
 
-使用redis:
+## 使用redis:
 导入redis依赖以及配置，采用集群部署
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu13.png)
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu14.png)
 
 
-RedisConfig文件：
+## RedisConfig文件：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu15.png)
 
-RedisTemplate的使用：
+## RedisTemplate的使用：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu16.png)
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu17.png)
 
-用Elasticsearch做房源搜索
+## 用Elasticsearch做房源搜索
 导入包以及配置：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu18.png)
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu19.png)
 
-Elasticsearch的使用：
+## Elasticsearch的使用：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu20.png)
 
-搭建后台myql数据库：
+## 搭建后台myql数据库：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu21.png)
 
-使用docker进行安装MySQL集群：
+## 使用docker进行安装MySQL集群：
 
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu22.png)
 ![image](https://github.com/forestsss/img-folder/blob/765e0538c4e0ac624d260ede6956cbc2c556b131/zu23.png)
